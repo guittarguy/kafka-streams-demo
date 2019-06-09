@@ -1,0 +1,11 @@
+## YAML Template.
+---
+kafka:
+    streams:
+        bootstrap:
+            servers: localhost:9092
+        clientID: test-stream
+        threads:
+            number: 4
+server:
+    port: 9002
