@@ -7,7 +7,6 @@ package com.kafka.streams.demo;
 
 import java.util.Properties;
 import org.apache.kafka.common.serialization.Serdes;
-import org.apache.kafka.common.serialization.StringSerializer;
 import org.apache.kafka.streams.StreamsConfig;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
